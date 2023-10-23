@@ -2,18 +2,162 @@
  * Assignment 02
  * CSS FILE
  */
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
+ header {
+  background-color: rgb(222, 222, 223);
   display: flex;
-  justify-content: center;
+  height: 100px;
+  justify-content: space-between;
+  flex-direction: row;
   align-items: center;
+}
+.linkin {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+a {
+  color: black;
+}
+.logoimage {
+  height: 100px;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
-  color: #023047;
+  color: #069b3c;
 }
+main .first {
+  height: 500px;
+  width: 500px;
+  background-color: rgb(232, 231, 230);
+  border-radius: 10px;
+  margin:  auto;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.cover {
+  height: 200px;
+  margin: auto;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+}
+h2 {
+  text-align: center;
+}
+main .mappy {
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+}
+.Citadel {
+  height: 200px;
+  margin: auto;
+}
+.mappycit {
+  margin-right: 70px;
+  background-color: aquamarine;
+}
+.nightmarket {
+  height: 200px;
+  margin: auto;
+}
+.mappysiab {
+  margin-right: 140px;
+  background-color: rgb(229, 255, 127);
+}
+h3 {
+  text-align: center;
+}
+main .chas{
+  width: 500px;
+  background-color: rgb(232, 231, 230);
+  border-radius: 10px;
+  margin:  auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+h4 {
+  text-align: center;
+}
+.chases {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+
+}
+.chases > li:nth-child(1) {
+  background-color: rgba(62, 61, 61, 0.532);
+  padding: 10px;
+  border-radius: 10px;
+}
+.chases > li:nth-child(2) {
+  background-color: rgba(38, 217, 119, 0.532);
+  padding: 10px;
+  border-radius: 10px;
+}
+.chases > li:nth-child(3) {
+  background-color: rgba(4, 107, 24, 0.532);
+  padding: 10px;
+  border-radius: 10px;
+}
+.chases > li:nth-child(4) {
+  background-color: rgba(234, 51, 167, 0.779);
+  padding: 10px;
+  border-radius: 10px;
+}
+.chases > li:nth-child(5) {
+  background-color: rgba(230, 230, 51, 0.668);
+  padding: 10px;
+  border-radius: 10px;
+}
+.chases > li:nth-child(6) {
+  background-color: rgba(75, 62, 249, 0.532);
+  padding: 10px;
+  border-radius: 10px;
+}
+h5 {
+  text-align: center;
+  font-size: 20px;
+}
+.formy {
+  text-align: center;
+}
+.suggesty {
+  display: flex;
+  list-style-type: none;
+  background-color: beige;
+  flex-direction: row;
+}
+footer {
+  background-color: grey;
+  text-align: center;
+}
+.logoimage2 {
+  height: 100px;
+  align-items: center;
+  justify-self: center;
+  justify-content: center;
+  margin-left: 710px;
+}
+.linkin2 {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  text-align: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+.endy {
+  text-align: center;
+}
+
+
+

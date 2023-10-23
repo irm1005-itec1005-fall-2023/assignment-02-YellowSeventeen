@@ -1,76 +1,89 @@
 <!DOCTYPE html>
 <html lang="en-ca">
+  <head>
+    <!-- Set the page title -->
+    <title>Gelatinous Blog!</title>
 
-<head>
-  <!-- Set the page title -->
-  <title>Gelatinous Blog!</title>
+    <!-- Set the charset we're using to UTF-8 -->
+    <meta charset="UTF-8" />
 
-  <!-- Set the charset we're using to UTF-8 -->
-  <meta charset="utf-8" />
+    <!-- Set the screens default zoom / scale to 1 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Set the screens default zoom / scale to 1 -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Specifies the document mode for Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-  <!-- Specifies the document mode for Internet Explorer -->
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-  <!-- We are using a CSS Reset file to standardize browser default css -->
-  <link rel="stylesheet" href="./reset.css" />
-
-  <!-- This is where all of our awesome CSS code goes -->
-  <link rel="stylesheet" href="./style.css" />
-</head>
-
-<body>
-  <header>
-   
-      <img class="logoimage" src="gelatiousblog.png" alt="blog-logo"/>
+    <!-- CSS -->
+    <!-- The following CSS has been added so that the page
+    doesn't look super awful -->
+    <!-- Ignore everything in the <style> tag for now -->
+    <!-- We will learn about CSS later in the course -->
+    <style>
+      /*
+        These styles set the font, font-size, and add a
+        little bit of space between lines
+      */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        line-height: 1.6;
+      }
+      /*
+        These styles make sure that any super wide images
+        don't overflow the page width
+      */
+      img {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+    
+  </head>
+  <body>
     <h1>The Gelatinous Blog!</h1>
-      <nav>
-        <ul class="linkin">
-          <li><a href="Maps.html">Maps</a></li>
-          <li><a href="Characters.html">Characters</a></li>
-          <li><a href="Players.html">Players</a></li>
-        </ul>
-      </nav>      
-  </header>
-  <main>
-    <div class="first">
+    <img src="gelatiousblog.png" alt="blog-logo"/>
+    
+    <nav>
+      <ul>
+        <li><a href="Maps.html">Maps</a></li>
+        <li><a href="Characters.html">Characters</a></li>
+        <li><a href="Players.html">Players</a></li>
+      </ul>
+    </nav>
+    <!--
+
+      LIST ANY CITATIONS HERE
+
+        * A
+        * B
+
+    -->
     <p>Welcome to my blog! This is a place for me to record the
       events of my Dungeons and Dragon sessions for future reference
       but I've so kindly uploaded them here so you can see too!
-      <br><img class="cover" src="./Journeys_through_the_Radiant_Citadel_cover.png" alt="Cover art"/><br/> 
+      <br><img src="./Journeys_through_the_Radiant_Citadel_cover.png" alt="Cover art"/><br/> 
       The campaign is called "Journeys Through the Radiant 
       Citadel" and is primarily a dimesion hopping campaign. The
       players will find themselves jumping through diffrent worlds
       based on real world locations, time periods, and folklore.
     </p>
-    </div>
     <h2>Maps</h2>
-    <div class="mappy">
-    <div class="mappycit">
     <p>This is the first map of the campaign, the hub and namesake 
       of the adventure module. <a href="https://www.worldanvil.com/w/journeys-through-the-radiant-citadel-zipzip45/a/radiant-citadel-gazetteer-article">Click this link to learn more!</a>
     </p>
-    <img class="Citadel" src="./21412cllc0p81.png" alt="blog logo"/>
-    </div>
-    <div class="mappysiab">
-    <p>the second location in the siabsungkoh dyn singh night market</p>
-    <img class="nightmarket" src="./012-map-2.1-dyn-singh-night-market-player.png" alt="blog logo"/>
-  </div>
+    <img src="./21412cllc0p81.png" alt="blog logo"/>
     <p>This section will be updated as the players discover
-      new locations. Next update will be <strong>2023-10-27</strong>.</p>
-    </div>
+      new locations. Next update will be <strong>2023-10-13</strong>.</p>
     <h3>Characters</h3>
-    <div class="chas">
-    <p>There have yet to be any major character appearances</p>
+    <p>There have yet to be any character appearances</p>
     <p>This section will be updated as the players meet
-      new important people. Next update will be <strong>2023-10-27</strong>
+      new people. Next update will be <strong>2023-10-13</strong>
     </p>
-    </div>
+    
     <h4>Players</h4>
     <p>The roster for this adventure is:</p>
-    <ul class="chases">
+    <ul>
       <li>Cassiopia, the human shadow sorcerer who got seperated from her 
         family while trying to access the Radiant Citadel.
       <br><a href="https://www.dndbeyond.com/characters/109114519">Cassiopia's character sheet</a><br></li>
@@ -93,13 +106,11 @@
       <br><a href="https://www.dndbeyond.com/characters/109060064">Tieran's character sheet</a><br></li>
     </ul>
     <h5>Give me suggestions!</h5>
-    <div class="formy">
     <p>I'm not very good at coming up with things to put in my game
       so I'm giving all my followers the ability to shape my game!
     </p>
-    </div>
     <form action="I'mnottakinganyone'ssuggestions" method="post">
-      <ul class="suggesty">
+      <ul>
         <li>
           <label for="suggestione">Suggestion:</label>
           <textarea rows="5" id="suggestione" placeholder="Give Okihtcita a magic item"></textarea>
@@ -125,27 +136,20 @@
         </li>
       </ul>
     </form>
-  
   </body>
-  
-  </main>
   <footer>
     <h2>The Gelatinous Blog!</h2>
-    <img class="logoimage2" src="gelatiousblog.png" alt="blog logo"/>
+    <img src="gelatiousblog.png" alt="blog logo"/>
     
     <nav>
-      <ul class="linkin2">
+      <ul>
         <li><a href="Maps.html">Maps</a></li>
         <li><a href="Characters.html">Characters</a></li>
         <li><a href="Players.html">Players</a></li>
       </ul>
     </nav>
-    <div class="endy">
     <p>Contact us at 1-800-935-5699</p>
     <p><strong>2023 ©</strong></p>
-    </div>
-  </footer>
-  
-</body>
 
+  </footer>
 </html>
